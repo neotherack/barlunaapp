@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Bar Luna - Sahagún</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+		<script type="text/javascript" charset="utf-8">
+		        document.addEventListener("deviceready",deviceIsReady, false);
+			function deviceIsReady(){
+				adbuddiz.setAndroidPublisherKey("7987de73-808f-4da7-b0be-0532b66b6851");
+				adbuddiz.cacheAds();
+			}
+		</script> 
+	</head>
+<body  class="container" style="width:95%; padding:10px; text-align:center;  ">
+	<section id="header">
+		<div style="background: #fff; ">
+			<h1>BAR LUNA</h1>
+			<h3>www.barluna.tk</h3>
+		</div>
+		<div class="container"  style="background: #fff; ">
+			<p>Seleccione su idioma <br /> Choose your language</p>
+			<ul style="width:50%; list-style-type:none; margin:auto;">
+				<li style="display:inline;margin-bottom:10px;"><a href="index-es.html">
+					<img id="publi" style="width:45%;" src="images/flag/es.png" alt="Español"/></a></li>
+				<li style="display:inline;margin-bottom:10px;" ><a href="index-en.html">
+					<img id="publi" style="width:45%;" src="images/flag/uk.png" alt="English"/></a></li>
+		 	</ul>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<p id="publi" style="background: #fff; ">App de Bar Luna (Sahagún - España)</p>
+			<div class="copyright" style="background: #fff; ">
+			  <p>&copy; Todos los derechos reservados <br />
+			     &copy; All rights reserved<br />
+			     <a id="publi" href="http://www.miniwebspain.tk">MiniWeb Spain</a>
+			  </p>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" charset="utf-8">
+		$("div #publi").click(function() { 
+			adbuddiz.showAd();
+		});
+	</script>
+</body>
+</html>
